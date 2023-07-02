@@ -1,5 +1,7 @@
 # Artsiom Ramodzin
 
+![photo cv](https://i.imgur.com/DXRwBh3m.jpg)
+
 ## My Contact Info:
 
 - **Location**: Warsaw
@@ -39,13 +41,13 @@ Proactive team player with excellent communication skills, ready to collaborate 
 
 ## Experience
 
-- RS School ([CV Markdown & Git](https://github.com/Artemromod/rsschool-cv)
+- RS School ([CV Markdown & Git](https://github.com/Artemromod/rsschool-cv))
 
 ## Education
 
 - **University**: Belarusian National Technical University, Civil and Industrial Engineering
 - **Courses**:
-  Udemy ([The Web Developer Bootcamp 2023](https://www.udemy.com/course/the-web-developer-bootcamp/))
+  - Udemy ([The Web Developer Bootcamp 2023](https://www.udemy.com/course/the-web-developer-bootcamp/))
 
 ## Languages
 
