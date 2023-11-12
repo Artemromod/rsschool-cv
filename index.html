@@ -17,10 +17,10 @@
 		<div class="container">
 			<nav class="nav">
 				<ul class="nav-list">
-					<li class="nav-item"><a href="#my contact info" class="nav-link">My contact info</a></li>
-					<li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
+					<li class="nav-item"><a href="#my-contact-info" class="nav-link">My contact info</a></li>
+					<li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
 					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-					<li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
 					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
 					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
 					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
@@ -31,13 +31,13 @@
 	<main class="main">
 		<div class="container">
 			<section class="section-profile" id="profile">
-				<img src="assets/img/cv_photo.jpg" alt class="cv_photo">
+				<img src="assets/img/cv_photo.jpg" class="cv-photo" alt="cv-photo">
 				<div class="section-profile-title">
 					<h1 class="section-title">Artsiom Ramodzin</h1>
 					<h3 class="section-subtitle">Junior front-end developer</h3>
 				</div>
 			</section>
-			<section class="section" id="my contact info">
+			<section class="section" id="my-contact-info">
 				<div>
 					<h2>My contact info</h2>
 					<ul class="section-list">
@@ -52,7 +52,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="section" id="about me">
+			<section class="section" id="about-me">
 				<h2 class="section-title">About me</h2>
 				<p>Proactive team player with excellent communication skills, ready to collaborate with designers and
 					backend developers to achieve high-quality results. Attention to detail and result-oriented mindset
@@ -66,17 +66,16 @@
 					<li class="section-item">Git/GitHub</li>
 				</ul>
 			</section>
-			<section class="section" id="code example">
+			<section class="section" id="code-example">
 				<h2 class="section-title">Code example</h2>
-				<code>
-					<pre>
-					function solution(number) {
-						if (number <= 0) {
+				<pre><code class="some-code">
+						function solution(number) {
+						if (number &lt;= 0) {
 						  return 0; // Return 0 for negative numbers or zero
 						}
 					  
 						let sum = 0;
-						for (let i = 1; i < number; i++) {
+						for (let i = 1; i &lt; number; i++) {
 						  if (i % 3 === 0 || i % 5 === 0) {
 							sum += i;
 						  }
@@ -84,16 +83,14 @@
 					  
 						return sum;
 					  }
-					</pre>
-				</code>
+					</code></pre>
 			</section>
-			<section class="section" id="projects"></section>
+			<!-- <section class="section" id="projects"></section>
 			<section class="section" id="education"></section>
-			<section class="section" id="languages"></section>
+			<section class="section" id="languages"></section> -->
 		</div>
 	</main>
 	<footer class="footer">
 		<div class="container"></div>
 	</footer>
 </body>
-
