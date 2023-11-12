@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cv</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="assets/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#my-contact-info" class="nav-link">My contact info</a></li>
+					<li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<section class="section-profile" id="profile">
+				<img src="assets/img/cv_photo.jpg" class="cv-photo" alt="cv-photo">
+				<div class="section-profile-title">
+					<h1 class="section-title">Artsiom Ramodzin</h1>
+					<h3 class="section-subtitle">Junior front-end developer</h3>
+				</div>
+			</section>
+			<section class="section" id="my-contact-info">
+				<div>
+					<h2>My contact info</h2>
+					<ul class="section-list">
+						<li class="section-item contact-item"> Location: Warsaw </li>
+						<li class="section-item contact-item"> Email: <a href="mailto:artemromod@gmail.com"
+								title="email">artemromod@gmail.com</a></li>
+						<li class="section-item contact-item"> Telegram: <a href="https://t.me/artemromod"
+								title="telegram">@artemromod</a></li>
+						<li class="section-item contact-item"> GitHub: <a href="https://github.com/Artemromod"
+								title="github">Artemromod</a></li>
+						<li class="section-item contact-item"> Discord: Artsiom Ramodzin (@Artemromod)</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section" id="about-me">
+				<h2 class="section-title">About me</h2>
+				<p>Proactive team player with excellent communication skills, ready to collaborate with designers and
+					backend developers to achieve high-quality results. Attention to detail and result-oriented mindset
+					make me an ideal candidate for creating amazing web applications.</p>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul class="section-list">
+					<li class="section-item">HTML</li>
+					<li class="section-item">CSS</li>
+					<li class="section-item">Git/GitHub</li>
+				</ul>
+			</section>
+			<section class="section" id="code-example">
+				<h2 class="section-title">Code example</h2>
+				<pre><code class="some-code">
+					function solution(number) {
+						if (number &amp; lt;= 0) {
+							return 0; // Return 0 for negative numbers or zero
+						}
+						let sum = 0;
+						for (let i = 1; i &amp; lt; number; i++) {
+							if (i % 3 === 0 || i % 5 === 0) {
+								sum += i;
+							}
+						}
+						return sum;
+					}
+					</code></pre>
+			</section>
+			<!-- <section class="section" id="projects"></section>
+			<section class="section" id="education"></section>
+			<section class="section" id="languages"></section> -->
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container"></div>
+	</footer>
+</body>
+
+</html>
