@@ -69,20 +69,18 @@
 			<section class="section" id="code-example">
 				<h2 class="section-title">Code example</h2>
 				<pre><code class="some-code">
-						function solution(number) {
-						if (number &lt;= 0) {
-						  return 0; // Return 0 for negative numbers or zero
+					function solution(number) {
+						if (number &amp; lt;= 0) {
+							return 0; // Return 0 for negative numbers or zero
 						}
-					  
 						let sum = 0;
-						for (let i = 1; i &lt; number; i++) {
-						  if (i % 3 === 0 || i % 5 === 0) {
-							sum += i;
-						  }
+						for (let i = 1; i &amp; lt; number; i++) {
+							if (i % 3 === 0 || i % 5 === 0) {
+								sum += i;
+							}
 						}
-					  
 						return sum;
-					  }
+					}
 					</code></pre>
 			</section>
 			<!-- <section class="section" id="projects"></section>
